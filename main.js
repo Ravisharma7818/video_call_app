@@ -22,7 +22,7 @@ let init = async () => {
 
 
 }
-let createPeerConnection = async (sdp) => {
+let createPeerConnection = async (sdpType) => {
     peerConnection = new RTCPeerConnection(servers)
     remoteStream = new MediaStream()
 
